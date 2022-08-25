@@ -1,0 +1,75 @@
+body{
+    background-image: url(bg.jpg);
+}
+
+h1 {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.section-1,
+.section-2 {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 40px;
+
+}
+
+.chien {
+    border-radius: 10px;
+}
+
+#chienrandom{
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+#chienrandom:hover{
+    background-color: rgb(3, 230, 3);
+    color: black;
+}
+
+.generer{
+    text-align: center;
+    padding-top: 20px;
+    display: block;
+}
+
+#imgchien{
+
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    display: block;
+}
+
+#img{
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    
+}
+
+
+
+
+@media screen and (min-width: 375px) and (max-width: 650px) {
+
+
+    .section-1,
+    .section-2 {
+        display: block;
+        padding-top: 40px;
+
+    }
+
+    .card {
+        margin: 5px;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+
+}
